@@ -22,6 +22,5 @@ while True:
             if(alarm_sec == current_sec):
                 if(alarm_period == current_period):
                     print("Wake Up")
-                    playsound(
-                        'D:/python/UDEMYCOURSES/PYTHON/PYTHON_PROJECTS/5_Alarm_Clock/Audio.mp3')
+                    playsound('path/Audio.mp3')
                     break
